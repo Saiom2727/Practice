@@ -1,2 +1,8 @@
-body{background-color: rgb(242, 60, 60);}
+p{
+    background-color: aquamarine;
+}
+
+a{
+    background-color: coral;
+}
 td{border: 2px solid black;}

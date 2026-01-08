@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siuuu</title>
+    <meta name="description" content="Hugo Ekitike's official website">
+    <title>Ekitike</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Lesgooooooo</h1>
     <h2>Welcome to Ekitike website</h2>
 
-    <p style="background-color: cadetblue;">Hugo Timothée Ekitike is a French professional footballer who plays as a forward for Premier League club Liverpool and the France national team. Ekitike began his professional career at 18 with Stade de Reims, playing for their reserves team before being called up to the senior squad in 2020..</p>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+
+    <p>Hugo Timothée Ekitike is a French professional footballer who plays as a forward for Premier League club
+        Liverpool and the France national team. Ekitike began his professional career at 18 with Stade de Reims, playing
+        for their reserves team before being called up to the senior squad in 2020..</p>
+    <a href="https://en.wikipedia.org/wiki/Hugo_Ekitike">Read more on Wikipedia</a>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kjiD7YpF5gA?si=QPeYgHynl7romvsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  ></iframe>
+
     <table>
         <caption>Career Statistics</caption>
         <tr>
@@ -44,12 +57,32 @@
         <ol>
             <li>YouTube: <a target="_blank" href="https://www.youtube.com/@HugoEkitike">Hugo Ekitike</a></li>
             <li>Instagram: <a target="_blank" href="https://www.instagram.com/hugoekitike/?hl=en">hugoekitike</a></li>
-            <li>Twitter: <a target="_blank" href="https://twitter.com/HugoEkitike?s=20&t=1n1k3b4p0k3J4hY7KXrDSA">HugoEkitike</a></li>
+            <li>Twitter: <a target="_blank"
+                    href="https://twitter.com/HugoEkitike?s=20&t=1n1k3b4p0k3J4hY7KXrDSA">HugoEkitike</a></li>
         </ol>
-    </table>    
-    
+    </table>
+    <form action="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <select id="rating" name="rating">
+            <option value="" disabled selected>Rate the website</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option><br>
+        </select><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message here..."></textarea><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
     <img width="500" src="Ekitike.jpg" alt="Goat">
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
